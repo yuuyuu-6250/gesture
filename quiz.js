@@ -98,7 +98,7 @@ function updateTimer() {
 function startGame() {
   try {
     correctCount = 0;
-    timeLeft = 180;
+    timeLeft = 120;
     remainingThemes = [...themes];
     resultEl.textContent = "";
     errorEl.textContent  = "";
